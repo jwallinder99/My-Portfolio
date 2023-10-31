@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: linear-gradient(
+        to right, 
+        hsl(2 65% 44%), 
+        hsl(212, 80%, 42%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    max-width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.aside {
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: left;
+    width: 30%;
+    margin-right: 10px; 
+}
+
+.profilePic {
+    border-radius: 10%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1px;
+    margin: 1px;
+}
+
+.skill {
+    margin: 1px;
+    padding: 1px;
+        background: linear-gradient(
+        to right, 
+        hsl(2 65% 44%), 
+        hsl(212, 80%, 42%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
