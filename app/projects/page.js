@@ -13,7 +13,8 @@ export default function Projects() {
           <div key={project.id} className={styles.project}>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
-            <Link href={project.url} target="_blank">Github Link</Link>
+            <Link href={project.github} target="_blank">Github Link</Link><br />
+            {project.link && <Link href={project.link} target="_blank">link to deployed app</Link>}
           </div>
         ))}
       </div>
